@@ -33,13 +33,34 @@ $(".time-block").each(function() {
 $(".saveBtn").on("click", function() {
     var time = $(this).parent().attr('data-hour');
     var text = $(this).siblings('textarea').val();
-    console.log(text);
-    console.log(time);
     localStorage.setItem(time, text)
 });
 
 //repeat this process for each hour
 $("#8am").text(localStorage.getItem("8"));
+$("#9am").text(localStorage.getItem("9"));
+$("#10am").text(localStorage.getItem("10"));
+$("#11am").text(localStorage.getItem("11"));
+$("#12pm").text(localStorage.getItem("12"));
+$("#1pm").text(localStorage.getItem("13"));
+$("#2pm").text(localStorage.getItem("14"));
+$("#3pm").text(localStorage.getItem("15"));
+$("#4pm").text(localStorage.getItem("16"));
+$("#5pm").text(localStorage.getItem("17"));
+$("#6pm").text(localStorage.getItem("18"));
+$("#7pm").text(localStorage.getItem("19"));
+$("#8pm").text(localStorage.getItem("20"));
+$("#9pm").text(localStorage.getItem("21"));
+$("#10pm").text(localStorage.getItem("22"));
+$("#11pm").text(localStorage.getItem("23"));
+$("#12am").text(localStorage.getItem("24"));
+$("#1am").text(localStorage.getItem("1"));
+$("#2am").text(localStorage.getItem("2"));
+$("#3am").text(localStorage.getItem("3"));
+$("#4am").text(localStorage.getItem("4"));
+$("#5am").text(localStorage.getItem("5"));
+$("#6am").text(localStorage.getItem("6"));
+$("#7am").text(localStorage.getItem("7"));
 
 
 //WHEN I refresh the page, the saved events persist
