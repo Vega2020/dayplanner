@@ -1,15 +1,14 @@
-# 
-*Day Planner*
-## By: 
-Jeremy Flowers for U of A full stack boot camp
+# *Day Planner*
+## By: Jeremy Flowers
+With help from U of A
         
-Table of Contents:
-[Project_Description](Project Description)
-[Installation](Installation)
-[Usage](Usage)
+Table of Contents:  
+[Overview](Overview)  
+[Installation](Installation)  
+[Usage](Usage)  
         
         
-## Project Description: 
+## Overview: 
 This is a single-page scheduling app that allows the user to save events by writing and retrieving them from local storage with Javascript.
         
 ## Installation: 
